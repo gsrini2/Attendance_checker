@@ -7,9 +7,12 @@ This script automatically logs in to the attendance portal
 and fetches the "In time" of the current day.
 If 9 hours is consumed from the In time, it generates a 
 notification on the system tray as a pop up for every 15 minutes.
+Module "fnotify" which is used here is available as "windows_tray_notifer" 
+in my Git repository.
 
 Author - Srini
 Blog: https://creativentechno.wordpress.com/
+GitHub: https://github.com/gsrini2
 '''
 import os
 import sys
